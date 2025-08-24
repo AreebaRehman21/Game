@@ -1,0 +1,80 @@
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f0f0f0;
+    }
+
+    h1 {
+      background: #2c3e50;
+      color: white;
+      padding: 15px;
+      margin: 0;
+    }
+
+    /* button styles */
+    .choices {
+      margin: 30px;
+    }
+
+    .choices button {
+      margin: 15px;
+      padding: 25px;
+      font-size: 40px;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      color: white;
+    }
+
+    .rock { background: #e74c3c; }     /* red */
+    .paper { background: #9b59b6; }    /* purple */
+    .scissors { background: #3498db; } /* blue */
+
+    .choices button:hover {
+      transform: scale(1.1);
+    }
+
+    /* scoreboard style */
+    .scoreboard {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      margin: 20px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .scoreboard div {
+      background: white;
+      padding: 15px 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    /* result text */
+    #result {
+      margin-top: 20px;
+      font-size: 22px;
+      font-weight: bold;
+      padding: 10px;
+      border-radius: 8px;
+      display: inline-block;
+    }
+
+    .win { background: #2ecc71; color: white; }
+    .lose { background: #e74c3c; color: white; }
+    .draw { background: #f1c40f; color: black; }
+
+    /* reset button */
+    #resetBtn {
+      margin-top: 25px;
+      padding: 10px 20px;
+      font-size: 18px;
+      background: #34495e;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    #resetBtn:hover {
+      background: #2c3e50;}
