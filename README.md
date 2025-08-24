@@ -24,6 +24,5 @@ JavaScript
 ##Author:
 Areeba Rehman
 
-Live Demo
-
 👉 Play the game here
+
