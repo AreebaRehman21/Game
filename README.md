@@ -24,5 +24,4 @@ JavaScript
 ##Author:
 Areeba Rehman
 
-👉 Play the game here
 
