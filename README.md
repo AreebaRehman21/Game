@@ -23,12 +23,15 @@ Use the "Reset" button to clear scores and play again.
 ##Technologies Used:
 
 HTML
+
 CSS
+
 JavaScript
 
 ##Author:
 
 Areeba Rehman
+
 
 
 
